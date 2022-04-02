@@ -1,0 +1,45 @@
+//////////////////////////////////
+// Top bar
+.top-bar{
+    background-color: var(--bar-color);
+
+    &__text{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+}  
+
+.search{
+    &__input{
+        border-radius: 1rem;
+        margin-left: -2.5rem;
+        &:focus{
+            outline: none;
+        }
+        &::placeholder{
+            
+        }
+    }
+    &__button{
+        border: none;
+        z-index: 999;
+        background-color: transparent;
+    }
+}
+
+
+/////////////////////////////////////////////
+// Articles
+.articles{
+    &__heading::before{
+        content: "ARTICLES";
+        opacity: 0.05;
+        font-weight: bolder;
+        letter-spacing: -7px;
+        font-size: 6rem;
+        position: absolute;
+        top: -21px;
+        margin-left: -6rem;
+    }
+}
+ 

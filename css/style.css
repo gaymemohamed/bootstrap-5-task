@@ -15,6 +15,11 @@ Grey dark 2: #777
 Grey dark 3: #999
 
 */
+:root {
+  --bar-color:#e8f1fa;
+  --button-color:#4874df;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -35,6 +40,55 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.6;
+}
+
+.card {
+  box-shadow: 0rem 0.5rem 1rem rgba(72, 116, 223, 0.7);
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+.card__btn {
+  background-color: var(--button-color);
+  color: #fff;
+}
+.card__btn:hover {
+  color: #fff;
+}
+
+.heading__category {
+  color: var(--button-color);
+}
+
+.top-bar {
+  background-color: var(--bar-color);
+}
+.top-bar__text {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.search__input {
+  border-radius: 1rem;
+  margin-left: -2.5rem;
+}
+.search__input:focus {
+  outline: none;
+}
+.search__button {
+  border: none;
+  z-index: 999;
+  background-color: transparent;
+}
+
+.articles__heading::before {
+  content: "ARTICLES";
+  opacity: 0.05;
+  font-weight: bolder;
+  letter-spacing: -7px;
+  font-size: 6rem;
+  position: absolute;
+  top: -21px;
+  margin-left: -6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
