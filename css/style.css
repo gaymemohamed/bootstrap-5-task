@@ -91,4 +91,22 @@ body {
   margin-left: -6rem;
 }
 
+.side-bar {
+  flex: 0 0 16%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bar-color);
+}
+
+.article-content {
+  flex: 1;
+}
+
+.article-back {
+  color: black;
+}
+.article-back:hover {
+  color: black;
+}
+
 /*# sourceMappingURL=style.css.map */

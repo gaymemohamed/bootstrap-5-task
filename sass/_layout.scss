@@ -42,4 +42,23 @@
         margin-left: -6rem;
     }
 }
- 
+/////////////////////////////////
+//Side bar
+
+.side-bar{
+    flex: 0 0 16%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bar-color);
+}
+
+.article-content{
+    flex: 1;
+}    
+
+.article-back{
+    color: black;
+    &:hover{
+        color: black;
+    }
+}
